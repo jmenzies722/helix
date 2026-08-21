@@ -28,4 +28,4 @@ https://github.com/jmenzies722/helix
 
 ## Status
 
-Ready for review. Skeleton builds. Not yet deployed.
+Ready for review. `npm run build` succeeded. `npm run dev` served `/` with title and `<h1>` Helix. Not yet deployed to Vercel.
