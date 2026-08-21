@@ -1,7 +1,5 @@
+import { Chat } from "./chat";
+
 export default function Home() {
-  return (
-    <main>
-      <h1>Helix</h1>
-    </main>
-  );
+  return <Chat />;
 }
