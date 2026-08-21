@@ -31,4 +31,6 @@ https://github.com/jmenzies722/helix
 
 ## Status
 
-Ready for review. Model slug used: `openai/gpt-5-nano` (listed by `https://ai-gateway.vercel.sh/v1/models` at implement time).
+Ready for review. `npm run build` and `npm run lint` succeeded. Local production server rendered `/` with header, empty-state invite, composer, and send. `POST /api/chat` returned a UI message stream (`text/event-stream`). Without local OIDC the stream reports a generic retry error, as expected until `vercel env pull` or production OIDC is available.
+
+Model slug used: `openai/gpt-5-nano` (listed by `https://ai-gateway.vercel.sh/v1/models` at implement time).
